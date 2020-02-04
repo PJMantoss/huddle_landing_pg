@@ -102,3 +102,10 @@ header > .trial {
     margin: auto;
     width: 55%;
 }
+
+.stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     
+}
