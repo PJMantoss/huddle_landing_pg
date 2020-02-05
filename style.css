@@ -107,5 +107,40 @@ header > .trial {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-     
+    width: 100%;
+    margin-top: 60px;
+}
+
+.communities > img {
+    width: 25%;
+    margin-bottom: 5px;
+}
+
+.communities > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.communities > span {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.messages > img {
+    width: 25%;
+    margin-bottom: 5px;
+}
+
+.messages > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.messages > span {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
