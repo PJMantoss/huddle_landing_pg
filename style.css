@@ -11,6 +11,8 @@ html {
 
 body {
    background: white;
+   margin: 0;
+   padding: 0;
 }
 
 img {
@@ -91,8 +93,9 @@ header > .trial {
     color: white;
     border-radius: 30px;
     width: 250px;
-    height: 45px;
+    height: 50px;
     border: 2px solid hsl(322, 100%, 66%);
+    box-shadow: 0px 2px 0px 0px rgb(219, 217, 217);
 }
 
 .screen-mockups {
@@ -233,4 +236,80 @@ header > .trial {
     font-family: 'Open sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
+}
+
+.main3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 70px auto;
+}
+
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: hsl(207, 100%, 98%);
+    width: 100%;
+}
+
+.section3 > img {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    padding: 20px;
+    margin-right: 60px;
+}
+
+.section3 .text3 {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.text3 > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.text3 > p {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.ready {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.ready > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.ready > input {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    border: 2px solid hsl(322, 100%, 66%);
+    box-shadow: 0px 2px 0px 0px rgb(219, 217, 217);
 }
