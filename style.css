@@ -9,7 +9,6 @@ html {
 }
 
 body {
-   background: white;
    box-sizing: border-box;
 }
 
@@ -62,8 +61,7 @@ header > .trial {
 }
 
 .pg-wrapper {
-    position: relative;
-    z-index: 1;
+    
 }
 
 .intro {
