@@ -61,6 +61,11 @@ header > .trial {
     border: 2px solid hsl(322, 100%, 66%);
 }
 
+.pg-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
